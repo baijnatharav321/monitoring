@@ -1,0 +1,2 @@
+create table user(id int primary key AUTO_INCREMENT, userid varchar(50) ,firstName varchar(50) not null ,middleName varchar(50),lastName varchar(50) not null,
+password varchar(100) , active boolean , roles varchar(50)); 
